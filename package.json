@@ -1,0 +1,13 @@
+{
+  "name": "recordbin",
+  "version": "0.1.0",
+  "description": "Recordbin Javascript Client",
+  "main": "index.js",
+  "repository": "www.github.com/gtalarico/recordbin-js",
+  "author": "Gui Talarico",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
