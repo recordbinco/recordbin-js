@@ -5,9 +5,22 @@
   "main": "index.js",
   "repository": "www.github.com/gtalarico/recordbin-js",
   "author": "Gui Talarico",
+  "email": "gtalarico.dev@gmail.com",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "verbose": false,
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "eslint": "^5.9.0"
   }
 }

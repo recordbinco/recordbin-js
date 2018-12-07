@@ -11,13 +11,22 @@ Javascript Client for [RecordBin](http://www.github.com/gtalarico/recordbin-api)
 ## Installing
 
 ```
-npm install recordbin-js
+npm install recordbin
 ```
 
-### Usage Example
+### Usage
 
-```
+```js
+const RecordBin = require('recordbin')
 
+const serverUrl = 'http://api.recordbin.co'
+const appToken = '7419a34711c3b15b1d8793ef6221e2b080e6944c'
+const bin = RecordBin(serverUrl, appToken)
+bin.post({username: 'gtalarico', data: 'test'})
+.then(
+  function(data) {
+    console.log(data)
+})
 ```
 
 ## License
