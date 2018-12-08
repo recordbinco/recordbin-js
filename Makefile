@@ -13,9 +13,13 @@ usage:
 ci:
 	circleci local execute
 
-## lint: Flake8
+## lint: eslint
 lint:
-	pipenv run flake8
+	npm run lint
+
+## test: jest tests
+test:
+	npm run test
 
 ## release: Build and Release on Npm
 release:
