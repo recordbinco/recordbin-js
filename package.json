@@ -1,6 +1,6 @@
 {
   "name": "recordbin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Recordbin Javascript Client",
   "main": "index.js",
   "repository": "www.github.com/gtalarico/recordbin-js",
