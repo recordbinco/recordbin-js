@@ -1,9 +1,9 @@
 # RecordBin JS
 
 [![npm version](https://badge.fury.io/js/recordbin.svg)](https://badge.fury.io/js/recordbin)
-[![CircleCI](https://circleci.com/gh/gtalarico/recordbin-js.svg?style=svg)](https://circleci.com/gh/gtalarico/recordbin-js)
+[![CircleCI](https://circleci.com/gh/recordbinco/recordbin-js.svg?style=svg)](https://circleci.com/gh/recordbinco/recordbin-js)
 
-Javascript Client for [RecordBin](http://www.github.com/gtalarico/recordbin-api)
+Javascript Client for [RecordBin](http://www.github.com/recordbinco/recordbin-api)
 
 
 ## Installing
